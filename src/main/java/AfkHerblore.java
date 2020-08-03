@@ -5,8 +5,10 @@ import java.awt.event.KeyEvent;
 public class AfkHerblore {
 
     private Robot robot;
-    private int Min=15*1000;
-    private int Max=17*1000;
+    private int Min=16*1000;
+    private int Max=18*1000;
+    //private int Min=11*1000;
+    //private int Max=12*1000;
     private int numberOfClicks = 200000;
 
     public AfkHerblore() throws Exception {
@@ -25,17 +27,17 @@ public class AfkHerblore {
             //robot.delay(1503);
             robot.delay(1503 + (int)(Math.random() * ((1599 - 1503) + 1)));
 
-            robot.keyPress(KeyEvent.VK_F8);
+            robot.keyPress(KeyEvent.VK_F9);
             robot.delay(134 + (int)(Math.random() * ((193 - 134) + 1)));
-            robot.keyRelease(KeyEvent.VK_F8);
+            robot.keyRelease(KeyEvent.VK_F9);
             robot.delay(139 + (int)(Math.random() * ((169 - 139) + 1)));
 
             //robot.delay(1239);
             robot.delay(1239 + (int)(Math.random() * ((1269 - 1239) + 1)));
 
-            robot.keyPress(KeyEvent.VK_8);
+            robot.keyPress(KeyEvent.VK_9);
             robot.delay(144 + (int)(Math.random() * ((188 - 144) + 1)));
-            robot.keyRelease(KeyEvent.VK_8);
+            robot.keyRelease(KeyEvent.VK_9);
             robot.delay(131 + (int)(Math.random() * ((178 - 131) + 1)));
 
             //robot.delay(1249);

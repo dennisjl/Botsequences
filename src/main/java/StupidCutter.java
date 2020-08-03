@@ -25,11 +25,11 @@ public class StupidCutter {
             robot.mousePress(InputEvent.BUTTON1_DOWN_MASK);
             robot.delay(151);
             robot.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
-            robot.delay(153);
+            robot.delay( 153);
 
-            robot.keyPress(KeyEvent.VK_P);
+            robot.keyPress(KeyEvent.VK_8);
             robot.delay(604);
-            robot.keyRelease(KeyEvent.VK_P);
+            robot.keyRelease(KeyEvent.VK_8);
             robot.delay(159);
 
             robot.keyPress(KeyEvent.VK_SPACE);
@@ -58,7 +58,7 @@ public class StupidCutter {
         System.out.println("AC start in 2 seconds");
 
         try {
-            Thread.sleep(2002);
+            Thread.sleep(    2002);
         } catch (Exception e) {
             e.printStackTrace();
         }
