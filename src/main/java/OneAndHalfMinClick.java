@@ -11,7 +11,7 @@ public class OneAndHalfMinClick {
 
     private Robot robot;
     //private int numberOfClicks = 200000;
-    private int numberOfClicks = 200; /*et klikk per 90 s, på 4,5 timer*/
+    private int numberOfClicks = 400; /*et klikk per 90 s, på 4,5 timer*/
 
     public OneAndHalfMinClick() throws Exception {
         this.robot = new Robot();
